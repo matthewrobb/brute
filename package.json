@@ -1,15 +1,25 @@
 {
   "name": "brute",
-  "version": "0.0.0",
-  "description": "brute =====",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.1",
+  "description": "brute ========",
+  "main": "./lib/brute.js",
+  "bin": {
+    "brute": "./bin/cli.js"
   },
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "nomnom": "^1.8.0",
+    "traceur": "0.0.45"
+  },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/matthewrobb/brute.git"
+    "url": "https://github.com/matthewrobb/brute.git"
   },
-  "author": "",
-  "license": "BSD"
+  "author": "Matthew Robb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewrobb/brute/issues"
+  },
+  "homepage": "https://github.com/matthewrobb/brute"
 }
