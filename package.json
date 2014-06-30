@@ -1,10 +1,10 @@
 {
-  "name": "brute",
+  "name": "yawp",
   "version": "0.0.1",
-  "description": "brute ========",
-  "main": "./lib/brute.js",
+  "description": "yawp ========",
+  "main": "./lib/yawp.js",
   "bin": {
-    "brute": "./bin/cli.js"
+    "yawp": "./bin/cli.js"
   },
   "dependencies": {
     "lodash": "^2.4.1",
@@ -14,12 +14,12 @@
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/matthewrobb/brute.git"
+    "url": "https://github.com/matthewrobb/yawp.git"
   },
   "author": "Matthew Robb",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matthewrobb/brute/issues"
+    "url": "https://github.com/matthewrobb/yawp/issues"
   },
-  "homepage": "https://github.com/matthewrobb/brute"
+  "homepage": "https://github.com/matthewrobb/yawp"
 }
